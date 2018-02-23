@@ -1,0 +1,4 @@
+# locally generated files
+dist/
+build/
+*.egg-info/
