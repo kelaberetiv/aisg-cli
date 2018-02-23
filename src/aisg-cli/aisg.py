@@ -13,8 +13,8 @@ arguments.pop(0)
 commands = arguments
 
 # run commands and get output
-commands_output = subprocess.check_output(arguments)
-
+commands_output = subprocess.check_output(arguments).decode()
+	
 # parse output accordingly
 # WIP - depend on use cases
 parsed_output = commands_output
