@@ -8,5 +8,5 @@ exit /b 1
 )
 
 rem concatenate inputs and pass to execution engine
-set params=%arg2% %arg3% %arg4% %arg5% %arg6% %arg7% %arg8% %arg9%
+set params=%1 %2 %3 %4 %5 %6 %7 %8 %9
 python -u aisg.py %params%
